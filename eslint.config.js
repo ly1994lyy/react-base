@@ -11,21 +11,21 @@ export default tslint.config(
     files: ['**/*.{ts,tsx}'],
     languageOptions: {
       ecmaVersion: 2020,
-      globals: globals.browser,
+      globals: globals.browser
     },
     plugins: {
       'react-hooks': reactHooks,
-      'react-refresh': reactRefresh,
+      'react-refresh': reactRefresh
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
       'react-refresh/only-export-components': [
         'warn',
-        { allowConstantExport: true },
+        { allowConstantExport: true }
       ],
-        "quotes": ["error", "single", { "avoidEscape": true }],
-        "indent": ['error','tab'],
-        "semi": ["error", "never"],
-    },
-  },
+      quotes: ['error', 'single', { avoidEscape: true }],
+      indent: ['error', 2],
+      semi: ['error', 'never']
+    }
+  }
 )
