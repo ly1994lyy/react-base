@@ -1,10 +1,10 @@
 
 const Login = () => {
-	return (
-		<div>
+  return (
+    <div>
             登录页面
-		</div>
-	)
+    </div>
+  )
 }
 
 export default Login

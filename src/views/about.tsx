@@ -1,9 +1,9 @@
 const About=()=>{
-	return (
-		<div>
+  return (
+    <div>
             about
-		</div>
-	)
+    </div>
+  )
 }
 
 export default About

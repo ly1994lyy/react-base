@@ -6,10 +6,10 @@ interface ThemeStore {
 }
 
 const setThemeStore = create<ThemeStore>((set)=>{
-	return {
-		isDark:false,
-		setTheme:(theme:boolean)=>set({isDark:theme})
-	}
+  return {
+    isDark:false,
+    setTheme:(theme:boolean)=>set({isDark:theme})
+  }
 })
 
 export default setThemeStore
