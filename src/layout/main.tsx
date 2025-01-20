@@ -31,7 +31,7 @@ const Main = () => {
         <div className="flex">
           <div>{isDark ? 'dark' : 'light'}</div>
           <div className="cursor-pointer" onClick={() => changeTheme(!isDark)}>
-            change mode
+            change mode1
           </div>
         </div>
       </div>
